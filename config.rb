@@ -6,12 +6,22 @@ set :haml, { :ugly => true, :format => :html5 }
 # ...
 #set :http_prefix, '/test-middleman'
 
+#configure :build do
+#  # Relative assets needed to deploy to Github Pages
+#  activate :relative_assets
+#  #set :relative_links, true
+#  #set :site_url, "/test-middleman"
+#  #set :http_prefix, '/test-middleman'
+#end
+
+
 configure :build do
-  # Relative assets needed to deploy to Github Pages
-  activate :relative_assets
-  set :relative_links, true
-  #set :site_url, "/test-middleman"
-  #set :http_prefix, '/test-middleman'
+  # Generate relative paths to the repo when deploying to GitHub Pages
+  config[:http_prefix] = '/test-middleman'
+  #config[:css_dir] = ""
+  config[:js_dir] = ""
+  # activate :minify_css
+  # activate :minify_javascript
 end
 
 
