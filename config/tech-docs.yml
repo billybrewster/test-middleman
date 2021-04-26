@@ -18,7 +18,7 @@ footer_links:
 # Table of contents depth – how many levels to include in the table of contents.
 # If your ToC is too long, reduce this number and we'll only show higher-level
 # headings.
-max_toc_heading_level: 1
+max_toc_heading_level: 3
 
 # Multi-page options
 multipage_nav: true
@@ -29,7 +29,7 @@ show_contribution_banner: true
 github_repo: alphagov/tdt-documentation
 
 # Enable search
-enable_search: true
+enable_search: false
 
 # Ownership for page reviews
 default_owner_slack: '#tech-writers'

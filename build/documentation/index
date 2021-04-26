@@ -1,26 +1,5 @@
-<h1 id="mhclg-techincal-documentation-library">MHCLG Techincal Documentation Library</h1><h2 id="docs">Docs</h2><p>Open <code>source/documentation/index.md</code> in your favourite text editor and start editing!</p>
-<p>You can write content in <a href="https://daringfireball.net/projects/markdown/">Markdown</a> using <strong>all</strong> of the <em>usual</em> syntax that you&rsquo;re used to!</p>
-<p>This means you can use things like tables:</p>
-<div class="table-container">
-        <table>
-          <tr>
-<th>Food</th>
-<th>Kind</th>
-<th>Tasty?</th>
-</tr><tr>
-<td>Bananas</td>
-<td>Fruit</td>
-<td>Yes</td>
-</tr><tr>
-<td>Aubergines</td>
-<td>Vegetable </td>
-<td>No</td>
-</tr><tr>
-<td>Apricots</td>
-<td>Fruit</td>
-<td>Yes</td>
-</tr>
-        </table>
-      </div><p>Why dont you change the title of the page or include additional files you&rsquo;ll need to edit <code>source/index.html.md.erb</code>.</p>
-<p>If you want slightly more control, you can always use <strong>HTML</strong>.</p>
-<p>For more detail and troubleshooting, take a look at the <code>README.md</code> file in the root of this project.</p>
+<h1 id="mhclg-technical-documentation-library">MHCLG Technical Documentation Library</h1><p>Welcome to the MHCLG technical library, which contains documentation relating to the work by the cyber support team</p>
+<p>The aim of this library is to provide users with technical material that is relevant to support cyber related work.  The content should be used as reference material only</p>
+<p>The version of any document in this library is the most recent</p>
+<p>For support and/or assistance with this site, please refer queries to the cyber support team on the email address below</p>
+<p><a href="mailto:cyber@localdigital.gov.uk">cyber@localdigital.gov.uk</a> | <a href="www.localdigital.gov.uk">www.localdigital.gov.uk</a> | MHCLG Digital blog | MHCLG Digital jobs | @LDgovUK</p>

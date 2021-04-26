@@ -18,8 +18,10 @@ set :haml, { :ugly => true, :format => :html5 }
 configure :build do
   # Generate relative paths to the repo when deploying to GitHub Pages
   config[:http_prefix] = '/test-middleman'
+  #set :relative_links, true
+  #activate :relative_assets
   #config[:css_dir] = ""
-  config[:js_dir] = ""
+  #config[:js_dir] = "/javascripts"
   # activate :minify_css
   # activate :minify_javascript
 end
